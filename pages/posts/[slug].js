@@ -1,5 +1,5 @@
 function PostDetailPage() {
-  return <div>Selected Post Page</div>;
+  return <div>Post details Page</div>;
 }
 
 export default PostDetailPage;
