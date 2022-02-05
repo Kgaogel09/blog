@@ -62,3 +62,7 @@ button {
   font: inherit;
   cursor: pointer;
 }
+
+ul {
+  list-style: none;
+}
