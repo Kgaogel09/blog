@@ -3,17 +3,21 @@ import classes from "./hero.module.css";
 
 function Hero() {
   return (
-    <div className={classes.hero}>
-      <Image
-        className={classes.img}
-        src="/me.png"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-      <h1>Hero Component</h1>
-      <p>Welcome to the Hero component!</p>
-    </div>
+    <section className={classes.hero}>
+      <div className={classes.image}>
+        <Image
+          src="/images/me.jpg"
+          alt="Picture of the author"
+          width={280}
+          height={280}
+        />
+      </div>
+      <h1>Hi, I am Thorn</h1>
+      <p>
+        Welcome to my Frontend Blog! I blog blog about frontend frameworks
+        especially angular and react.
+      </p>
+    </section>
   );
 }
 
