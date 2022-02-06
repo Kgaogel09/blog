@@ -27,7 +27,9 @@ export function getALlPost() {
     return getPostData(postFile);
   });
 
-  allPosts.sort((postA, postB) => (postA.date > postB.date ? -1 : 1));
+  const sortedPosts = allPosts.sort((postA, postB) =>
+    postA.date > postB.date ? -1 : 1
+  );
 
   return sortedPosts;
 }
