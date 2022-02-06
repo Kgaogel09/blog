@@ -1,7 +1,13 @@
-import classes from "post-grid.module.css";
-
-function PostsGrid() {
-  return <div>Posts Grid</div>;
+import PostsItem from "./post-item";
+import classes from "./posts-grid.module.css";
+function PostsGrid({ posts }) {
+  return (
+    <ul className={classes.grid}>
+      {posts.map((post) => (
+        <PostsItem />
+      ))}
+    </ul>
+  );
 }
 
 export default PostsGrid;
