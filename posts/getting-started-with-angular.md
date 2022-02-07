@@ -16,18 +16,18 @@ Not for me, but still, there is a valid point: React already is a framework / li
 
 ## Why would we then need Angular?
 
-Because NextJS makes building React apps easier - especially React apps that should have server-side rendering (though it does way more than just take care of that).
+JavaScript powers the web - it's **the** most important programming language you need to know as a web developer.
 
-In this article, we'll dive into the core concepts and features NextJS has to offer:
+For example, you should understand code like this:
 
-- File-based Routing
-- Built-in Page Pre-rendering
-- Rich Data Fetching Capabilities
-- Image Optimization
-- Much More
+```js
+const basics = 'Okay, that should not be too difficult actually';
 
-## File-based Routing
+function printBasics() {
+  console.log(basics):
+}
 
-![Create routes via your file + folder structure](nextjs-file-based-routing.png)
+printBasics();
+```
 
 ...More content...
