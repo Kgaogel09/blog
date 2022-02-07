@@ -19,8 +19,10 @@ function handler(req, res) {
       name,
       message,
     };
-    console.log(newMessage);
 
     res.status(201).json({ message: "Success!", message: newMessage });
+    console.log(newMessage);
   }
 }
+
+export default handler;
